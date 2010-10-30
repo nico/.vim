@@ -4,3 +4,4 @@ set ignorecase
 set smartcase
 set shiftwidth=2
 set expandtab
+set ruler
