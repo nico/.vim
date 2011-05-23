@@ -6,6 +6,11 @@ set shiftwidth=2
 set expandtab
 set ruler
 
+if v:version >= 703
+  set undofile
+  set undodir=~/.vim/undodir
+endif
+
 " Load stuff in ~/.vim/ftplugin
 filetype plugin on
 
