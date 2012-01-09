@@ -2,3 +2,7 @@ set guioptions-=T
 set guioptions-=L
 set columns=80
 set lines=70
+
+if has("win32") || has("win64")
+  set guifont=Consolas:h12:cANSI
+endif
