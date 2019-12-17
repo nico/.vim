@@ -6,3 +6,9 @@ set lines=70
 if has("win32") || has("win64")
   set guifont=Consolas:h12:cANSI
 endif
+
+if has("mac")
+  " Remove fullscreen button from touchbar. It's right next to esc and I
+  " accidentally hit it all the time, even with the physical esc key.
+  aunmenu TouchBar.
+endif
